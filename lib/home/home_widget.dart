@@ -343,7 +343,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                             16.0, 12.0, 16.0, 12.0),
                         child: Column(
                           mainAxisSize: MainAxisSize.max,
-                          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                          mainAxisAlignment: MainAxisAlignment.spaceAround,
                           crossAxisAlignment: CrossAxisAlignment.start,
                           children: [
                             Flexible(
@@ -457,7 +457,7 @@ class _HomeWidgetState extends State<HomeWidget> {
                                     ),
                                   ),
                                 ),
-                              ],
+                              ].divide(SizedBox(width: 16.0)),
                             ),
                           ],
                         ),
