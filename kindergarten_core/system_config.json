@@ -1,0 +1,24 @@
+{
+  "application_name": "myKindergarten",
+  "version_identifier": "1.0.0",
+  "supported_age_range": {
+    "minimum_months": 24,
+    "maximum_months": 72
+  },
+  "operational_hours": {
+    "opening_time": "07:00",
+    "closing_time": "18:00",
+    "timezone": "America/New_York"
+  },
+  "capacity_limits": {
+    "max_students_per_classroom": 20,
+    "max_classrooms": 10,
+    "teacher_to_student_ratio": 0.05
+  },
+  "feature_toggles": {
+    "enable_photo_sharing": true,
+    "enable_meal_tracking": true,
+    "enable_incident_reports": true,
+    "enable_developmental_assessments": true
+  }
+}
