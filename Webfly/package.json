@@ -1,0 +1,12 @@
+{
+  "name": "webfly",
+  "version": "1.0.0",
+  "description": "Webfly web application",
+  "main": "src/index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "keywords": ["web", "application"],
+  "author": "",
+  "license": "ISC"
+}
