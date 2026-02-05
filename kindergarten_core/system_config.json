@@ -13,7 +13,7 @@
   "capacity_limits": {
     "max_students_per_classroom": 20,
     "max_classrooms": 10,
-    "teacher_to_student_ratio": 0.1
+    "teacher_to_student_ratio": 0.05
   },
   "feature_toggles": {
     "enable_photo_sharing": true,
